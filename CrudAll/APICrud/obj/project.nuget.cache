@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "irQhlD1hFP+opkUBn0cZRh8FUaCeUKLGAiHz1nFXvZ8Hydzw5bhXWAGWut+dpZTC73hyrHJ0KHt+L+Da7jzqvA==",
+  "success": true,
+  "projectFilePath": "D:\\self\\dot-net\\web-app\\ALLCRUD\\CrudAll\\APICrud\\APICrud.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Z13\\.nuget\\packages\\fsharp.core\\8.0.100\\fsharp.core.8.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,49 @@
+﻿@using CrudAll.Models
+@model IEnumerable<SubCategoryModel>
+
+<h2>All Category Here</h2>
+
+<div class="col md-4 mb-3">
+    <a class="btn btn-primary" asp-action="Create">Create SubCategory</a>
+
+</div>
+
+
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                SubCategory Name
+            </th>
+            <th>
+                Description
+            </th>          
+            <th>
+                Category
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td>
+                    @obj.Title
+                </td>
+                <td>
+                    @obj.Description
+                </td>           
+                <td>
+                    @obj.Category.CategoryName
+                </td>
+                <td>
+                    <a asp-controller="SubCategory" asp-action="Edit" asp-route-id="@obj.SubId" class="btn btn-primary">Edit</a>
+                    <a asp-controller="SubCategory" asp-action="Delete" asp-route-id="@obj.SubId" class="btn btn-danger">Delete</a> 
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,18 @@
+﻿@using CrudAll.Models
+@model CategoryModel
+<h2>Edit Here by Repo</h2>
+<form method="post" asp-action="Edit">
+    <input asp-for="CategoryId" type="hidden" />
+    <div class="col-md-4 mb-3">
+        <label asp-for="CategoryName"></label>
+        <input asp-for="CategoryName" class="form-control" />
+    </div>
+    <div class="col-md-4 mb-3">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary" style="width:120px">Update</button>
+    <a asp-controller="CategoryRepo" asp-action="Index" class="btn btn-secondary" style="width:150px">
+        Back to the List
+    </a>
+</form>

@@ -1,0 +1,14 @@
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\bin\Debug\net8.0\CrudAll.Models.deps.json
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\bin\Debug\net8.0\CrudAll.Models.runtimeconfig.json
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\bin\Debug\net8.0\CrudAll.Models.dll
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\bin\Debug\net8.0\CrudAll.Models.pdb
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\CrudAll.Models.csproj.AssemblyReference.cache
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\CrudAll.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\CrudAll.Models.AssemblyInfoInputs.cache
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\CrudAll.Models.AssemblyInfo.cs
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\CrudAll.Models.csproj.CoreCompileInputs.cache
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\CrudAll.Models.dll
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\refint\CrudAll.Models.dll
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\CrudAll.Models.pdb
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\CrudAll.Models.genruntimeconfig.cache
+D:\self\dot-net\web-app\ALLCRUD\CrudAll\CrudAll.Models\obj\Debug\net8.0\ref\CrudAll.Models.dll

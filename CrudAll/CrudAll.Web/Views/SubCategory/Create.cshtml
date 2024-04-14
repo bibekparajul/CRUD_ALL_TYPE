@@ -1,0 +1,30 @@
+﻿@using CrudAll.Models
+@model SubCategoryModel
+
+<h2>Create SubCategory</h2>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form method="post">
+                <div class="mb-3">
+                    <label asp-for="Title"></label>
+                    <input asp-for="Title" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Description"></label>
+                    <textarea rows="10" cols="20" asp-for="Description" class="form-control"></textarea>
+                </div>       
+                <div class="mb-3">
+                    <label>Category</label>
+                    <select asp-for="CategoryId" class="form-control" asp-items="@(new SelectList(ViewBag.Categories, "CategoryId", "CategoryName"))">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:120px">Create</button>
+                <a asp-controller="SubCategory" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                    Back to the List
+                </a>
+            </form>
+        </div>
+    </div>
+</div>

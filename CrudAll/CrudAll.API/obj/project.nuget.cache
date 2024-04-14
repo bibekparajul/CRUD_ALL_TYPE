@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yIQSYeFewRw6hOYzBg6btymeDqdCnXqqut7O5H+yde/fJo2AJSzY06d36Y/ocBISbu3rciYa/sgU5T4lMgBbjw==",
+  "success": true,
+  "projectFilePath": "D:\\self\\dot-net\\web-app\\ALLCRUD\\CrudAll\\CrudAll.API\\CrudAll.API.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Z13\\.nuget\\packages\\fsharp.core\\8.0.100\\fsharp.core.8.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,43 @@
+﻿@using CrudAll.Models
+@model IEnumerable<CategoryModel>
+
+<h2>All Category By Repository</h2>
+
+<div class="col md-4 mb-3">
+    <a class="btn btn-primary" asp-action="Create">Create Category</a>
+
+</div>
+
+
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Category Name
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td>
+                    @obj.CategoryName
+                </td>
+                <td>
+                    @obj.Quantity
+                </td>
+                <td>
+                    <a asp-controller="CategoryRepo" asp-action="Edit" asp-route-id="@obj.CategoryId" class="btn btn-primary">Edit</a>
+                    <a asp-controller="CategoryRepo" asp-action="Delete" asp-route-id="@obj.CategoryId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
